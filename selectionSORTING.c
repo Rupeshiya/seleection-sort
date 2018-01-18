@@ -1,3 +1,5 @@
+//program for selection sort in which we compare one of the element with all other and check the value which is greater then swap accordingily
+//to get in ascending or descending order
 #include<stdio.h>
 void main()
 {
@@ -28,7 +30,7 @@ void main()
     }
     for(i=0;i<n;i++)
     {
-        printf("%d",a[i]);
+        printf("%d ",a[i]);
     }
 
 }
